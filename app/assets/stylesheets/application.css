@@ -13,3 +13,41 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+  background: #eaeaea;
+  color: #333;
+  text-transform: uppercase;
+  margin: 1em;
+ }
+
+ .form, .submit {
+  display: flex;
+  height: 1.23rem;
+  border: none;
+  margin: 0.3em 0em;
+  background: #fff;
+  padding: 0.2em;
+ }
+
+.form:focus{outline: 2px solid #999;}
+
+/*.user-all {
+  color: #333;
+  text-decoration: none;
+}*/
+
+nav a {
+  color: #333;
+  text-decoration: none; 
+  border: solid 1px #111;
+  padding: 1em;
+  display: flex;
+  transition: all 0.3s;
+  background: #fff;
+}
+
+nav a:hover {
+  background: #000;
+  color: #fff;
+}
